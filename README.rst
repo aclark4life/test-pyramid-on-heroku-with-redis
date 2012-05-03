@@ -1,13 +1,4 @@
-========
-Octogit
-========
+Introduction
+============
 
-
-This repository has been created with Octogit.
-
-
-.. image:: http://myusuf3.github.com/octogit/assets/img/readme_image.png
-
-Author
-======
-Mahdi Yusuf (@myusuf3)
+Following http://docs.pylonsproject.org/projects/pyramid_cookbook/en/latest/deployment/heroku.html and https://devcenter.heroku.com/articles/redistogo
