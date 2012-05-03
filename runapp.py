@@ -9,7 +9,7 @@ if 'REDISTOGO_URL' in os.environ:
     urlparse.uses_netloc.append('redis')
     url = urlparse.urlparse(os.environ['REDISTOGO_URL'])
     REDIS = redis.Redis(host=url.hostname, port=url.port, db=0, password=url.password)
-	REDIS.set("answer", 42)
+    REDIS.set("answer", 42)
 
 
 def hello_world(request):
