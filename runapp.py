@@ -2,6 +2,7 @@ from wsgiref.simple_server import make_server
 from pyramid.config import Configurator
 from pyramid.response import Response
 import os
+import redis
 import urlparse
 
 if 'REDISTOGO_URL' in os.environ:
